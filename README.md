@@ -1,5 +1,7 @@
 # SQL Customer Retention & Cohort Analysis
 
+> **Key finding:** Repeat buyers are 52.9% of customers but produce 85.0% of revenue, while month-1 cohort retention averages just 33.0%. Full write-up: [ANALYSIS.md](ANALYSIS.md).
+
 Retention analysis written in SQL: which signup cohorts keep ordering,
 how many customers buy more than once, who has gone quiet, and how much
 revenue each cohort produces over time.
@@ -55,3 +57,7 @@ excluded from revenue.
 
 - `README.md` — this file
 - `queries.sql` — the four retention queries, commented section by section
+- `ANALYSIS.md` — business analysis run on the sample data: findings with figures and recommendations
+- `data/customers.csv` — generated sample customers table (85 rows, signups Nov 2025 – Jun 2026)
+- `data/orders.csv` — generated sample orders table (283 rows, through Oct 2026)
+- `data/order_items.csv` — generated sample order items table (422 rows)
